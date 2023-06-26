@@ -1,0 +1,68 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.length-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.control {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.control button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.control button:hover {
+    background-color: #e4e4e4;
+}
+
+.control div {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#time-left {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.timer-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer-controls button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.timer-controls button:hover {
+    background-color: #449d44;
+}
+
+#beep {
+    display: none;
+}
